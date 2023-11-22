@@ -31,6 +31,8 @@ print(myorder.format(quantity, itemno, price))
 
 myorder = "I have a {carname}, it is a {model}."
 print(myorder.format(carname = "Ford", model = "Mustang"))
+print(myorder.lower())
+print(myorder.upper())
 
 ##Day 1 project 
 print("Hello, This is band generator\n")
